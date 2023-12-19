@@ -1,0 +1,29 @@
+.bg-image{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+   
+}
+
+.overlay-card {
+    position: absolute;
+    top: 36rem;
+    right:0;
+    bottom: 0;
+    left: 4rem;
+    background: linear-gradient(#4DCA79, #1CBDDD);
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    color:white;
+  }
+  
+  @media (max-width: 1200px) {
+    .overlay-card {
+      position: static;
+      height: auto;
+    }
+  }
+  

@@ -16,7 +16,7 @@ function Body() {
           <img src={bg} alt="" style={{ width: '100%', height: '100%' }} />
         </Col>
         <Col md={6} className="overlay-card">
-          <div className="card-body">
+          <div className="card-body" style={{ marginBottom: '20px'}}>
             <h1 className="card-title" style={{ padding: '4%', textAlign: 'left', fontWeight: 'bold', fontFamily: 'Sans-serif' }}>
               We Crush Your Competitors, Goals, And Sales Records - Without The B.S.
             </h1>

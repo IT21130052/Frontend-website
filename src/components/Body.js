@@ -10,7 +10,7 @@ import { Container, Row, Col} from 'react-bootstrap';
 function Body() {
   return (
     <>
-     <Container fluid>
+     <Container fluid className="px-0" style={{ margin: 0, padding: 0 }}>
       <Row>
         <Col md={6} className="bg-image">
           <img src={bg} alt="" style={{ width: '100%', height: '100%' }} />
